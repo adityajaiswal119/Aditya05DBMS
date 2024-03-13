@@ -12,11 +12,9 @@ There is a wide range of database software solutions, including both enterprise 
 Here are some of the most popular database management systems:
 
                                      Oracle
-
 Oracle Database is a commercial relational database management system. It utilizes enterprise-scale database technology with a robust set of features right out of the box. It can be stored in the cloud or on-premises.
 
                                       MySQL
-
 MySQL is a relational database management system that is commonly used with open-source content management systems and large platforms like Facebook, Twitter, and Youtube.
 
 
@@ -25,11 +23,9 @@ Developed by Microsoft, SQL Server is a relational database management system bu
 
 
                  What is a Relational Database (RDBMS)?
-
 A relational database is a type of database that stores and provides access to data points that are related to one another. Relational databases are based on the relational model, an intuitive, straightforward way of representing data in tables. In a relational database, each row in the table is a record with a unique ID called the key. The columns of the table hold attributes of the data, and each record usually has a value for each attribute, making it easy to establish the relationships among data points.
 
                      ACID properties and RDBMS
-
 Four crucial properties define relational database transactions: atomicity, consistency, isolation, and durability—typically referred to as ACID.
 
 Atomicity defines all the elements that make up a complete database transaction.
@@ -38,11 +34,9 @@ Isolation keeps the effect of a transaction invisible to others until it is comm
 Durability ensures that data changes become permanent once the transaction is committed.
 
                  Difference between DBMS and RDMS
-
 DBMS (Database Management System) and RDBMS (Relational Database Management System) are both systems used for managing databases, but there are some key differences between the two:
 
 Data Structure:
-
 DBMS: DBMS can manage any type of data, whether structured, semi-structured, or unstructured. It doesn't necessarily enforce a structure or relationships between data.
 
 RDBMS: RDBMS specifically deals with structured data and enforces a tabular structure where data is stored in tables with rows and columns. It also enforces relationships between these tables through the use of foreign keys.
@@ -58,21 +52,18 @@ DBMS: DBMS typically supports a general-purpose query language but may not neces
 RDBMS: RDBMS almost always supports SQL, which is a standardized language for managing relational databases.
 
 Scalability:
-
 DBMS: DBMS may have limitations in terms of scalability, especially when dealing with large volumes of data or complex relationships.
 
 RDBMS: RDBMS is generally more scalable than plain DBMS due to its ability to handle structured data efficiently, support for indexing, and optimization techniques.
 
 
 Normalization:
-
 DBMS: DBMS may or may not support normalization, the process of organizing data to minimize redundancy and dependency.
 
 RDBMS: RDBMS is designed to support normalization up to a certain level (typically up to 3rd normal form). This helps in reducing data redundancy and ensuring data consistency.
 
 
                 what is SQL and it's Introduction
-
 SQL (Structured Query Language) is a powerful and widely-used programming language designed for managing and manipulating relational databases. It serves as the standard language for communicating with and extracting information from databases. SQL enables users to perform a variety of operations, including data retrieval, insertion, updating, and deletion, as well as the definition and modification of database schema and access control.
 
 Introduced in the 1970s by IBM researchers, SQL has since become an integral part of database management systems (DBMS) across various platforms, including commercial and open-source databases such as Oracle, MySQL, PostgreSQL, Microsoft SQL Server, and SQLite.
@@ -93,11 +84,9 @@ Data Definition Language (DDL) vs. Data Manipulation Language (DML): SQL is divi
   
 
                Different data types used in SQL
-
 SQL supports various data types to represent different kinds of data that can be stored in a database. The specific data types available may vary slightly between different database management systems (DBMS), but there are common data types that are widely supported across most SQL implementations. Here's a list of some common data types:
 
 Numeric Types:
-
 INTEGER: Represents whole numbers, typically in the range -2^31 to 2^31-1 or -2^63 to 2^63-1, depending on the platform.
 FLOAT: Represents floating-point numbers with single precision.
 DOUBLE: Represents floating-point numbers with double precision.
